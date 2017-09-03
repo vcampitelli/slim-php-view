@@ -1,0 +1,21 @@
+{
+    "name": "vcampitelli/slim-php-view",
+    "description": "Slightly enhanced PHP View Renderer for Slim",
+    "type": "library",
+    "require": {
+        "slim/php-view": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vcampitelli\\Slim\\View\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinícius Campitelli",
+            "email": "campitellivinicius@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
